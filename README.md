@@ -30,7 +30,7 @@ O **SCAST** é um sistema computacional de alto desempenho desenvolvido do zero 
 O código é estruturado de maneira modular e extensível:
 
 ```text
-py-textual-similarities/
+SCAST/
 │
 ├── .venv/                      # Ambiente Virtual Python (Isolamento de Pacotes)
 ├── requirements.txt            # Dependências (Streamlit, Scikit-Learn, Plotly, etc.)
@@ -74,20 +74,17 @@ Você deverá ver algo como `Python 3.12.10` (ou versão superior).
 ### 1️⃣ Abrir a Pasta do Projeto
 Abra seu terminal (PowerShell, Prompt de Comando CMD ou terminal do VS Code) e navegue até a pasta raiz do projeto:
 
-**Windows (PowerShell):**
+**Windows (PowerShell ou CMD):**
 ```powershell
-cd D:\dev\py-textual-similarities
+cd /caminho/para/SCAST
 ```
-
-**Windows (CMD):**
-```cmd
-cd D:\dev\py-textual-similarities
-```
+*Substitua `/caminho/para/` pelo diretório onde você clonou o repositório*
 
 **Linux/macOS:**
 ```bash
-cd /path/to/py-textual-similarities
+cd /caminho/para/SCAST
 ```
+*Substitua `/caminho/para/` pelo diretório onde você clonou o repositório*
 
 ---
 
@@ -125,7 +122,7 @@ Agora você **precisa ativar** a `.venv` para que todos os comandos usem os paco
 
 > 💡 **Dica:** Após a ativação bem-sucedida, você verá o prefixo `(.venv)` no início da linha de comando. Exemplo:
 > ```
-> (.venv) D:\dev\py-textual-similarities>
+> (.venv) /caminho/para/SCAST>
 > ```
 
 ---
@@ -179,7 +176,6 @@ streamlit run app.py
 You can now view your Streamlit app in your browser.
 
 Local URL: http://localhost:8501
-Network URL: http://192.168.31.17:8501
 ```
 
 O navegador **abrirá automaticamente** a aplicação em `http://localhost:8501`.
@@ -331,7 +327,7 @@ Depois de executar os passos 1-4 acima, use estes comandos:
 | `python cli.py --file1 A.txt --file2 B.txt` | Comparar dois arquivos via terminal |
 | `python test_engine.py` | Rodar testes automatizados |
 | `python download_resources.py` | Atualizar/baixar recursos NLTK |
-| `.venv\Scripts\deactivate` | Desativar ambiente virtual |
+| `deactivate` | Desativar ambiente virtual |
 
 ---
 
