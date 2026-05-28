@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import re
+
+# Inicializar recursos NLTK (deve ser antes de qualquer outro import)
+import nltk_setup
+
 from engine import (
     TextPreprocessor,
     TextVectorizer,
